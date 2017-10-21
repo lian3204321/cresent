@@ -19,7 +19,7 @@ type tree struct {
 }
 
 func (p *tree)new(){
-	
+	p.base = new(treeNode)
 }
 
 //在树中添加一个节点
